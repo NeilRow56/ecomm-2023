@@ -164,9 +164,8 @@ const Modal = ({
                     />
                   )}
                   <Button
-                    label="My Button"
                     disabled={disabled}
-                    // label={actionLabel}
+                    label={actionLabel}
                     onClick={handleSubmit}
                   />
                 </div>
